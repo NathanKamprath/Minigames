@@ -1,0 +1,146 @@
+body {
+    background-color: midnightblue;
+    color: gainsboro;
+    font-size: 30px;
+}
+
+.boards {
+      display: flex;
+    }
+  
+    .player-board {
+        width: 400px;
+        height: 400px;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: mediumaquamarine;
+        margin: 20px;
+    }
+    .board div {
+        width: 40px;
+        height: 40px;
+    }
+    .compuer-board {
+        width: 400px;
+        height: 400px;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: teal;
+        margin: 20px;
+    }
+    .dock {
+        width: 500px;
+        height: 100px;
+        margin: 30px 0;
+        background-color: teal;
+        display: flex;
+        align-items: center;
+    }
+    
+    .patrol-prev {
+        width: 80px;
+        height: 40px;
+        background-color: brown;
+        margin: 10px;
+        display: flex;
+    }
+    .patrol-prev-vertical {
+        width: 40px;
+        height: 80px;
+        background-color: brown;
+        margin: 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .submarine-prev {
+        width: 120px;
+        height: 40px;
+        background-color: purple;
+        margin: 10px;
+        display: flex;
+    }
+    .submarine-prev-vertical {
+        width: 40px;
+        height: 120px;
+        background-color: purple;
+        margin: 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .destroyer-prev {
+        width: 120px;
+        height: 40px;
+        background-color: green;
+        margin: 10px;
+        display: flex;
+    }
+    .destroyer-prev-vertical {
+        width: 40px;
+        height: 120px;
+        background-color: green;
+        margin: 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .battleship-prev {
+        width: 160px;
+        height: 40px;
+        background-color: orange;
+        margin: 10px;
+        display: flex;
+    }
+    .battleship-prev-vertical {
+        width: 40px;
+        height: 160px;
+        background-color: orange;
+        margin: 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .carrier-prev {
+        width: 200px;
+        height: 40px;
+        background-color: pink;
+        margin: 10px;
+        display: flex;
+    }
+    .carrier-prev-vertical {
+        width: 40px;
+        height: 200px;
+        background-color: pink;
+        margin: 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .ship div {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .patrol {
+        background-color: brown;
+    }
+    .submarine {
+        background-color: purple;
+    }
+    .destroyer {
+        background-color: green;
+    }
+    .battleship {
+        background-color: orange;
+    }
+    .carrier {
+        background-color: pink;
+    }
+    
+    .boom {
+        background-color: red;
+    }
+    .miss {
+        background-color: grey;
+    }
